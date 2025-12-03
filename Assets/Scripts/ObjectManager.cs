@@ -15,9 +15,12 @@ public class ObjectManager : MonoBehaviour
     // Declara variável de referência para o objeto (spawnpoint) 
     public GameObject spawnObject;
 
+    [SerializeField] Timer meuTimer;
+
     // Método para clique no objeto principal
     void OnMouseDown()
     {
+         if (meuTimer.acabou == false)
 
         // Aumenta o valor da variável de contagem
         clickCount++;

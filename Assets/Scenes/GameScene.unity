@@ -238,7 +238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoTimer: {fileID: 797359928}
-  tempoRestante: 120
+  tempoRestante: 5
+  acabou: 0
 --- !u!1 &218164273
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,6 +797,7 @@ MonoBehaviour:
   clickCount: 0
   spawnPoint: {fileID: 1276673983}
   spawnObject: {fileID: 1308937878263924503, guid: ef0c51f1b005f374eb52158e140c678b, type: 3}
+  meuTimer: {fileID: 161311864}
 --- !u!1 &797359926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,7 +1065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &961197936
 RectTransform:
   m_ObjectHideFlags: 0
