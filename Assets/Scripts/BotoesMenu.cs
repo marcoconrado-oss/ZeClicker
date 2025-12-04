@@ -7,4 +7,14 @@ public class BotoesMenu : MonoBehaviour
 {
   SceneManager.LoadScene("GameScene");
    }
+
+   public void VoltarAoMenu()
+   {
+       SceneManager.LoadScene("Menu");
+   }
+
+    public void SairDoJogo()
+    {
+        Application.Quit();
+    }
 }
